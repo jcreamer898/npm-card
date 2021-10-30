@@ -1,6 +1,6 @@
 {
   "name": "jcreamer898",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Personal npm card for Jonathan Creamer (@jcreamer898)",
   "main": "bin/index.js",
   "repository": {
@@ -47,8 +47,8 @@
       "npm": "jcreamer898",
       "github": "jcreamer898",
       "linkedin": "jcreamer898",
-      "web": "https://jonathancreamer.com",
-      "work": "Senior Software Engineer"
+      "web": "https://www.jonathancreamer.com",
+      "work": "Senior Software Engineer @ Microsoft"
     },
     "data": [
       "          <white>{{name}}</><green> / </><cyan>{{handle}}</>",
