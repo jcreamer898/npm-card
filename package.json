@@ -35,9 +35,9 @@
     "boxen": "^2.1.0",
     "chalk": "^2.4.1",
     "lodash.get": "^4.4.2",
-    "webpack": "^4.28.1",
+    "webpack": "^5.96.1",
     "webpack-bundle-analyzer": "^3.0.3",
-    "webpack-cli": "^3.1.2"
+    "webpack-cli": "^5.1.4"
   },
   "myCard": {
     "info": {
@@ -48,7 +48,7 @@
       "github": "jcreamer898",
       "linkedin": "jcreamer898",
       "web": "https://www.jonathancreamer.com",
-      "work": "Senior Software Engineer @ Microsoft"
+      "work": "Principal Software Engineer @ Microsoft"
     },
     "data": [
       "          <white>{{name}}</><green> / </><cyan>{{handle}}</>",

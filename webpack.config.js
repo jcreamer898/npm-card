@@ -2,7 +2,6 @@
 
 const Path = require("path");
 const webpack = require("webpack");
-const BundleAnalyzerPlugin = require("webpack-bundle-analyzer").BundleAnalyzerPlugin;
 
 const base = {
   mode: process.env.ANALYZE_BUNDLE ? "development" : "production",
@@ -10,9 +9,7 @@ const base = {
   entry: {
     "card.js": Path.resolve("src/card.js")
   },
-  plugins: [
-    process.env.ANALYZE_BUNDLE && new BundleAnalyzerPlugin()
-  ].filter(x => x),
+  plugins: [],
   resolve: {
     symlinks: false, // don't resolve symlinks to their real path
     alias: {
